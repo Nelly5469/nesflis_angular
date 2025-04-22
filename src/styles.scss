@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+:root{
+    --color-dark-purple: #3E2259;
+    --color-bright-pink: #DC30F2;
+    --color-neutral-beige: #F2F2F2;
+    --color-bright-red: #D94A4A;
+    --color-neutral-lilac: #B682D9;
+    --font-logo: "Gravitas One", serif;
+    --font-content: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body{
+    background-color: var(--color-dark-purple);
+    font-family: var(--font-content);
+}
